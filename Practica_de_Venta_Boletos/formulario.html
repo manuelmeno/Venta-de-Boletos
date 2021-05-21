@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/stylesheetform.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://icons8.com/icon/AJR21EkCU02R/money">
+    <title>Formulario</title>
+</head>
+<body style="background-color:#dda15e;">
+    
+    <div>
+        <img src="assets/img/soccer.gif" class="mx-auto d-block img-fluid" id="player" style="width:23%">
+    </div>
+    <div id="imagendolar" style="margin-top: 3%;">
+        <img  style="border-radius: 20%; margin-bottom: -3%; width: 15%;" src="assets/img/icons8-us-dollar.gif" alt="">
+    </div>
+    <form action="" >
+        
+        <h5>Nombre de Titular:</h5>
+        
+        <input type="text" name="nombretitular" id="titular" class="form-control" placeholder="Titular">
+        
+        <h5>Numero de Tarjeta :</h5>
+        <input type="text" name="numerodetarjeta" id="card" class="form-control" placeholder="Tarjeta">
+        
+        <!--
+        <div class="container">
+            <div class="row">
+               
+                     <div class="col-sm-6 col-sm-6">
+                <div class="form-group">
+                  <H7>Fecha</H7>
+                  <H7>CVV</H7>
+                  <div class="input-group">
+                    <input name="" id="" type="month" required class="form-control" placeholder="Fecha">
+                    <span class="">-</span>
+                    <input name="" id="" type="text" required class="form-control" placeholder="Numero">
+                  </div>
+                </div>
+              </div>
+                
+
+             
+            </div>
+          </div>
+        -->
+        <h5>Fecha:</h5>
+        
+          <input type="text" class="form-control" id="date" name="start" min="" placeholder="mm/yyyy" required>
+        
+        
+        <h5>CVV:</h5>  
+        <input type="text" class="form-control" id="cvv" name="" min="" placeholder="cvv" required>
+        <br>
+        <button type="button" class="btn btn-success" id="buttonpagar">Pagar</button>
+        <button type="button" class="btn btn-danger" onclick="location.href='index.html'" >Cancelar</button>
+    </form>
+
+    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="assets/js/form.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <!--
+
+   
+    <input type="text" id="Start" name="start" min="2000-03" required>
+    <input type="text" id="End" name="start" min="2000-03" required>
+     -->
+</body>
+</html>

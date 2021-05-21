@@ -1,0 +1,45 @@
+form{
+    /*
+    background-color:#FEFAE0 ;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;*/
+    background-color:#ffffff;
+	border-radius: 3px;
+	color: #1a1a1a;
+	font-size: 0.8em;
+	padding: 20px;
+	margin: 0 auto;
+    margin-bottom: 5%;
+	width: 300px;
+}
+#imagendolar{
+    display: flex;
+    justify-content: center;
+    
+}
+
+form input {
+    
+    width: 100%;
+    
+    
+    
+  }
+  
+#player{
+    border-radius: 20%;
+}
+
+.focus {
+    border-color: #ff0000 !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.616) !important ;
+} 
+.focussucess {
+    border-color: #00ff15 !important ;
+    box-shadow: 0 0 0 0.2rem rgba(51, 255, 0, 0.952) !important;
+} 
